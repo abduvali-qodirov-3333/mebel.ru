@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    max-width: 1565px;
+    height:100px;
+    background-color: #fff;
+}
+.nav-container{
+display: flex;
+justify-content: space-around;
+padding-top: 25px   ;
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(91, 90, 90);
+}
+
+.nav-text{
+display: flex;
+gap: 20px;
+}
+.nav-text1{
+display: flex;
+gap: 20px;
+    
+}
+
+.box-item, p{
+max-width: 562px;
+height: 81px;
+
+}
+.box-item{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.box-img{
+margin-top: 100px;
+margin-left: 70px;
+}
+.box{
+    display: flex;
+
+}
+.container-text{
+    margin-left: 300px;
+}
+
+.container-text p{
+    color: #343434;
+    margin-top: 40px;
+    max-width: 563px;
+    height: 123px;
+}
+.container-text,h1{
+    margin-bottom: 20px;
+    
+}
+
+.container{
+    display: flex;
+    margin-top: 200px;
+}
+.vali{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.vali-text{
+    margin-top: 100px;
+}
+
+.hamid1{
+    background-color:  #F2F3F5;
+    max-width: 595px;
+    height: 393px;
+}
+.hamid2{
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.hamid-item{
+display: flex;
+margin-top: 50px;
+}
+.hamid{
+    margin-left: 100px;
+}
+.mac{
+    display: flex;
+    margin-top: 100px;
+}
+.proamx{
+    margin-top: 100px;
+    margin-left: 100px;
+} 
+button{
+    width: 218px;
+    height: 50px;
+    background-color: gold;
+     border: 2px solid gold;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.samsung{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.real{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.france{
+    display: flex;
+    gap: 83px;
+    margin-left: 100px;
+}
+
+.son{
+    background-image: url(Group\ 1142.png);
+    max-width: 1542px;
+    height: 592px;
+    margin-top: 100px;
+}
+.ekmi{
+ display: flex;
+ justify-content: end;
+ align-items: flex-end;
+ margin-top: 100px;
+ margin-right: 100px;
+}
+.mebel{
+    background-color: #5B5B5B;
+    max-width: 1542px;
+    height: 392px;
+}
+.mebel{
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-around;
+    color: #fff;
+}
+
+
+@media screen and ( max-width:450px) {
+    *{
+        margin-left: 0px;
+    }
+    
+    
+    
+    .box{
+        flex-direction: column;
+
+    }
+    .box-img{
+        margin-top: 300px;
+        margin-left: 0px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container-text{
+        margin-left: 100px;
+        width: 200px;
+        height: 100px;
+        margin-bottom: 100px;
+    }
+
+    .vali{
+        flex-direction: column;
+
+    }
+    .vali-item{
+        margin-top: 100px;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .hamid-item{
+        flex-direction: column;
+    }
+   .mac{
+    flex-direction: column;
+   }
+   .france{
+    flex-direction: column;
+    margin-left: 50px;
+   }
+}
